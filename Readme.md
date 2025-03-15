@@ -21,16 +21,12 @@ Whether you're a beginner or an experienced developer, this documentation aims t
 * **Spring Integration**: Building messaging-based applications with Spring Integration.
 * **Spring Batch**: Handling batch processing in Spring.
 
-
-
-4 Different ways of creating a springboot project
+* [X]  4 Different ways of creating a springboot project
 
 - create a maven project and add starter dependencies
 - Using spring initializr
 - Using IDE like sts (Spring tool suite)
 - Springboot command line interface
-
-Inversion of control Container (IOC) => requires two things , Beans/POJO's and xml configurations
 
 Application Context => This is an interface so we cant create object of it so we use the subclasses of the application context
 
@@ -38,114 +34,51 @@ Application Context => This is an interface so we cant create object of it so we
 - AnnotationConfigApplicationContext
 - FileSystemXMLApplicationContext
 
-Aspect oriented programming (AOP)
-
-Data Access Framework (DAF)
-
-Spring MVC Framework
-
-Spring bean?
-
-Lifecycle of a spring bean
-
+* [X]  Data Access Framework (DAF)
+* [X]  Spring MVC Framework
+* [X]  Spring bean?
 * [X]  @Component @Autowired
 * [X]  Dependency injection types : Field injection,constructor injection,setter injection,Configuration methods
+* [X]  Difference between dependencies and dependency injection (DI)
+* [X]  Console Project vs Web project
+* [X]  Lombok => **Lombok** is a Java library that helps **reduce boilerplate code** in Java applications, such as **getters, setters, constructors, `toString()`, and `equals()` methods**
+* [X]  Why do we create a interface in repository package => Interfaces in repositories promote **abstraction, flexibility, and maintainability**, aligning with the core principle of writing clean, scalable, and testable code.
+* [X]  In Model package define the schema
+* [X]  THe job of the repository is to connect to the database and perform CRUD operations
+* [X]  JDBC -> 7 steps process
+* [X]  ORM -> A mapping/connecting of objects in java to the relational tables in sql/ any other rdbms
+* [X]  Relational database mapping
 
-Constructor injection is bydefault for using other two we need to use @Autowired
+* Classname becomes -> table name
+* Each variable inside class becomes -> column
+* Each object becomes -> row in the table
+* ORM does all these things for you
+* EX : hibernate(Mostly used), EclipseLink, Mybatis
 
-Difference between dependencies and dependency injection (DI)
-
-@Primary
-
-@Qualifier
-
-Console Project vs Web project
-
-@RestController
-
-@RequestMapping("/"
-
-@ResponseBody
-
-Controller in depth -> We can have multiple controllers
-
-Why do we create a interface in repository package
-
-In Model package define the schema
-
-Lombok dependency
-
-CRUD operations in springboot
-
-THe job of the repository is to connect to the database
-
-For CRUD operations we use repository
-
-JDBC -> 7 steps process
-
-Spring JDBC
-
-ORM -> A mapping/connecting of objects in java to the relational tables in sql/ any other rdbms
-
-Relational database mapping
-
-Classname becomes -> table name
-
-Each variable inside class becomes -> column
-
-Each object becomes -> row in the table
-
-ORM does all these things for you
-
-EX : hibernate(Mostly used), EclipseLink, Mybatis
-
-Spring Data JPA (Java persistence API) -> These are just standards and the ORMs like hibernate implement them
-
-@Data
-
-@AllArgsConstructor
-
-@NoArgsConstructor
-
-@Entity
-
-Why do we use @getMapping,@postMapping instead of just @RequestMapping
-
-enums
-
-Spring and JEE
-
-UI Layer => ProductController => We use tools like Strut/JSF or Spring MVC
-
-Bussiness/Services Layer => ProductService => modules Spring security, Transaction management
-
-Data Access Layer => ProductDao => We use tools like Spring JDBC,spring ORM
-
-Spring Core Modules =>  Core , beans , Context , spEL
-
-other modules => AOP , Aspect , Instrumentation , Messaging
-
-Data Access/Integration modules => JDBC , ORM , JMS , OXM
-
-Web modules => Web , Portlet , Servlet , WebSocket
-
-Testing modules => Test
-
-Pom => Project Object model
-
-RestTemplate, Rest client, Rest Template, webflux
-
-Custom finder methods/derived query methods
-
-mvn clean install => Build the project using Maven
-
-mvn spring-boot:run => Run the application
-
+* [X]  Spring Data JPA (Java persistence API) -> These are just standards and the ORMs like hibernate implement them
+* [X]  Inversion of control Container (IOC) => requires two things , Beans/POJO's and xml configurations
+* [X]  Why do we use @getMapping,@postMapping instead of just @RequestMapping
+* [X]  Enums
+* [ ]  UI Layer => ProductController => We use tools like Strut/JSF or Spring MVC
+* [ ]  Bussiness/Services Layer => ProductService => modules Spring security, Transaction management
+* [ ]  Data Access Layer => ProductDao => We use tools like Spring JDBC,spring ORM
+* [ ]  Spring Core Modules =>  Core , beans , Context , spEL
+* [ ]  other modules => AOP , Aspect , Instrumentation , Messaging
+* [ ]  Data Access/Integration modules => JDBC , ORM , JMS , OXM
+* [ ]  Web modules => Web , Portlet , Servlet , WebSocket
+* [ ]  Testing modules => Test
+* [X]  Pom => Project Object model
+* [X]  RestTemplate, Rest client, Rest Template, webflux
+* [X]  Custom finder methods/derived query methods
+* [X]  mvn clean install => Build the project using Maven
+* [X]  mvn spring-boot:run => Run the application
 * [X]  Spring boot starter mail
-
-Validation annotations
-
-Exception annotations
+* [X]  Validation annotations
+* [X]  Exception annotations
+* [X]  Aspect oriented programming (AOP)
+* [X]  ResponseEntity<>
+* [X]  Logger in springboot
+* [X]  cron expressions using @Scheduled annotation
 
 ## **Project Structure**
 
